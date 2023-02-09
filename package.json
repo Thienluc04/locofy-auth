@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently  \"nodemon server.js\"  \"nodemon authServer.js\"",
+    "start": "concurrently  \"node server.js\"  \"node authServer.js\"",
     "startAuth": "nodemon authServer.js"
   },
   "keywords": [],
